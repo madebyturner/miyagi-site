@@ -6,7 +6,7 @@ export default function Home() {
     <>
       {/* Hero #top */}
       <div id="top" className="pt-20 pb-32 md:pt-32 md:pb-48">
-        <div>
+        <div className="max-w-6xl mx-auto">
           <h1 className="text-5xl md:text-6xl lg:text-7xl font-medium mb-8 leading-[1.1] tracking-tight">
             Automate admin work, Miyagi learns your practice, you control what happens.
           </h1>
@@ -68,7 +68,7 @@ export default function Home() {
       {/* Expected outcomes #outcomes */}
       <hr className="border-gray-300 my-16" />
       <section id="outcomes" className="py-32">
-        <div className="max-w-5xl">
+        <div className="max-w-5xl mx-auto">
           <h2 className="text-4xl md:text-5xl font-medium mb-16 tracking-tight">
             Expected outcomes for your practice
           </h2>
@@ -157,7 +157,7 @@ export default function Home() {
       {/* Products overview #products */}
       <hr className="border-gray-300 my-16" />
       <section id="products" className="py-32">
-        <div className="max-w-5xl">
+        <div className="max-w-5xl mx-auto">
           <h2 className="text-4xl md:text-5xl font-medium mb-16 tracking-tight">
             Two products, one system
           </h2>
@@ -246,7 +246,7 @@ export default function Home() {
       {/* Value proposition #value */}
       <hr className="border-gray-300 my-16" />
       <section id="value" className="py-32">
-        <div className="max-w-5xl">
+        <div className="max-w-5xl mx-auto">
           <div className="text-center mb-16">
             <h2 className="text-4xl md:text-5xl font-medium mb-6 tracking-tight">Built for medical practice reality</h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
