@@ -169,23 +169,23 @@ export default function Home() {
 
           <div className="grid md:grid-cols-3 gap-8 mb-16">
             <div className="border border-gray-300 rounded-lg p-6">
-              <div className="text-sm uppercase tracking-wider text-gray-400 mb-3">Test before deploy</div>
+              <div className="text-sm uppercase tracking-wider text-gray-400 mb-3">Medicare integration</div>
               <p className="text-gray-600">
-                Test Tasks before staff see them. You approve what goes live.
+                Automated eligibility checks, bulk billing workflows, and safety net calculations built-in.
               </p>
             </div>
 
             <div className="border border-gray-300 rounded-lg p-6">
-              <div className="text-sm uppercase tracking-wider text-gray-400 mb-3">Australian data</div>
+              <div className="text-sm uppercase tracking-wider text-gray-400 mb-3">PBS & health funds</div>
               <p className="text-gray-600">
-                Australian data centres. APP compliant. End-to-end encryption.
+                Understands PBS scripts, health fund variations, and referral requirements across Australia.
               </p>
             </div>
 
             <div className="border border-gray-300 rounded-lg p-6">
-              <div className="text-sm uppercase tracking-wider text-gray-400 mb-3">Granular permissions</div>
+              <div className="text-sm uppercase tracking-wider text-gray-400 mb-3">Practice workflows</div>
               <p className="text-gray-600">
-                Control what AI sees and does. Revoke access anytime. Audit trails track every decision.
+                Learns your specific Australian practice patterns, billing cycles, and compliance needs.
               </p>
             </div>
           </div>
