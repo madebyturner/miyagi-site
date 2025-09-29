@@ -65,55 +65,6 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Expected outcomes #outcomes */}
-      <hr className="border-gray-300 my-16" />
-      <section id="outcomes" className="py-32">
-        <div className="max-w-5xl mx-auto">
-          <h2 className="text-4xl md:text-5xl font-medium mb-16 tracking-tight">
-            Expected outcomes for your practice
-          </h2>
-
-          <div className="border-2 border-gray-300 rounded-lg p-12">
-            <div className="grid md:grid-cols-2 gap-12">
-              <div>
-                <h3 className="text-2xl font-medium mb-6">Time savings</h3>
-                <div className="space-y-4">
-                  <div className="flex justify-between border-b border-gray-200 pb-2">
-                    <span className="text-gray-600">Admin tasks automated:</span>
-                    <span className="font-medium">70-80%</span>
-                  </div>
-                  <div className="flex justify-between border-b border-gray-200 pb-2">
-                    <span className="text-gray-600">Hours saved per week:</span>
-                    <span className="font-medium">10-20hrs</span>
-                  </div>
-                  <div className="flex justify-between border-b border-gray-200 pb-2">
-                    <span className="text-gray-600">Training time reduced:</span>
-                    <span className="font-medium">60%</span>
-                  </div>
-                </div>
-              </div>
-
-              <div>
-                <h3 className="text-2xl font-medium mb-6">Quality improvements</h3>
-                <div className="space-y-4">
-                  <div className="flex justify-between border-b border-gray-200 pb-2">
-                    <span className="text-gray-600">Booking accuracy:</span>
-                    <span className="font-medium">+45%</span>
-                  </div>
-                  <div className="flex justify-between border-b border-gray-200 pb-2">
-                    <span className="text-gray-600">Patient wait times:</span>
-                    <span className="font-medium">-30%</span>
-                  </div>
-                  <div className="flex justify-between border-b border-gray-200 pb-2">
-                    <span className="text-gray-600">Payment processing:</span>
-                    <span className="font-medium">2-3 days faster</span>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
 
       {/* How it works #flow */}
       <hr className="border-gray-300 my-16" />
@@ -204,129 +155,94 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Trust & security #trust */}
+
+      {/* Built for Australian healthcare #australian */}
       <hr className="border-gray-300 my-16" />
-      <section id="trust" className="py-32 border-2 border-gray-300 -mx-8 lg:-mx-12 px-8 lg:px-12">
-        <div className="max-w-5xl mx-auto">
-          <h2 className="text-4xl md:text-5xl font-medium mb-16 tracking-tight">
-            Built for Australian healthcare
-          </h2>
-
-          <div className="grid md:grid-cols-3 gap-12">
-            <div className="border border-gray-300 rounded-lg p-6">
-              <div className="text-sm uppercase tracking-wider text-gray-400 mb-3">Test before deploy</div>
-              <p className="text-gray-600">
-                Test Tasks before staff see them. You approve what goes live.
-              </p>
-            </div>
-
-            <div className="border border-gray-300 rounded-lg p-6">
-              <div className="text-sm uppercase tracking-wider text-gray-400 mb-3">Australian data</div>
-              <p className="text-gray-600">
-                Australian data centres. APP compliant. End-to-end encryption.
-              </p>
-            </div>
-
-            <div className="border border-gray-300 rounded-lg p-6">
-              <div className="text-sm uppercase tracking-wider text-gray-400 mb-3">Granular permissions</div>
-              <p className="text-gray-600">
-                Control what AI sees and does. Revoke access anytime. Audit trails track every decision.
-              </p>
-            </div>
-          </div>
-
-          <div className="mt-12 text-center">
-            <Link to="/security" className="text-gray-900 hover:text-gray-600 transition font-medium">
-              Read security documentation →
-            </Link>
-          </div>
-        </div>
-      </section>
-
-      {/* Value proposition #value */}
-      <hr className="border-gray-300 my-16" />
-      <section id="value" className="py-32">
+      <section id="australian" className="py-32 border-2 border-gray-300 -mx-8 lg:-mx-12 px-8 lg:px-12">
         <div className="max-w-5xl mx-auto">
           <div className="text-center mb-16">
-            <h2 className="text-4xl md:text-5xl font-medium mb-6 tracking-tight">Built for medical practice reality</h2>
+            <h2 className="text-4xl md:text-5xl font-medium mb-6 tracking-tight">Built for Australian healthcare reality</h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Designed with input from practice managers and reception staff.
+              Most practice automation tools are US-built and don't understand Medicare, bulk billing, or Australian workflows. We do.
             </p>
           </div>
 
           <div className="border-2 border-gray-300 rounded-lg p-12 mb-16">
             <div className="grid md:grid-cols-2 gap-12">
               <div>
-                <h3 className="text-2xl font-medium mb-6">Common challenges</h3>
+                <h3 className="text-2xl font-medium mb-6">Australian practice challenges</h3>
                 <div className="space-y-4 text-gray-600">
                   <div className="flex items-start gap-3">
                     <span className="text-gray-400">→</span>
-                    <span>High staff turnover requiring constant training</span>
+                    <span>Medicare eligibility and bulk billing complexity</span>
                   </div>
                   <div className="flex items-start gap-3">
                     <span className="text-gray-400">→</span>
-                    <span>Complex billing rules and insurance requirements</span>
+                    <span>PBS scripts, referrals, and health fund variations</span>
                   </div>
                   <div className="flex items-start gap-3">
                     <span className="text-gray-400">→</span>
-                    <span>Manual follow-ups consuming hours daily</span>
+                    <span>High staff turnover requiring constant retraining</span>
                   </div>
                   <div className="flex items-start gap-3">
                     <span className="text-gray-400">→</span>
-                    <span>Inconsistent service across different staff</span>
+                    <span>Manual follow-ups and payment chasing</span>
                   </div>
                 </div>
               </div>
 
               <div>
-                <h3 className="text-2xl font-medium mb-6">How Miyagi helps</h3>
+                <h3 className="text-2xl font-medium mb-6">How Miyagi solves this</h3>
                 <div className="space-y-4 text-gray-600">
+                  <div className="flex items-start gap-3">
+                    <span className="text-black">✓</span>
+                    <span>Understands Australian healthcare rules and workflows</span>
+                  </div>
+                  <div className="flex items-start gap-3">
+                    <span className="text-black">✓</span>
+                    <span>Automated eligibility checks and billing validation</span>
+                  </div>
                   <div className="flex items-start gap-3">
                     <span className="text-black">✓</span>
                     <span>Real-time guidance reduces training from weeks to days</span>
                   </div>
                   <div className="flex items-start gap-3">
                     <span className="text-black">✓</span>
-                    <span>Automated eligibility checks and billing codes</span>
-                  </div>
-                  <div className="flex items-start gap-3">
-                    <span className="text-black">✓</span>
-                    <span>Loops handle follow-ups automatically</span>
-                  </div>
-                  <div className="flex items-start gap-3">
-                    <span className="text-black">✓</span>
-                    <span>Standardized workflows with flexibility when needed</span>
+                    <span>Intelligent follow-ups and payment automation</span>
                   </div>
                 </div>
               </div>
             </div>
           </div>
 
-          <div>
-            <h3 className="text-2xl font-medium mb-8 text-center">Why practices choose Miyagi</h3>
-            <div className="grid md:grid-cols-3 gap-8">
-              <div className="text-center border border-gray-300 rounded-lg p-6">
-                <div className="flex justify-center mb-4"><Target className="w-10 h-10 text-black" /></div>
-                <h4 className="text-lg font-medium mb-2">Practice-specific AI</h4>
-                <p className="text-gray-600">
-                  Learns your specific workflows, policies, and preferences — not generic automation.
-                </p>
-              </div>
-              <div className="text-center border border-gray-300 rounded-lg p-6">
-                <div className="flex justify-center mb-4"><Shield className="w-10 h-10 text-black" /></div>
-                <h4 className="text-lg font-medium mb-2">Human oversight built-in</h4>
-                <p className="text-gray-600">
-                  Staff approve every action. Start with full control, increase autonomy as trust builds.
-                </p>
-              </div>
-              <div className="text-center border border-gray-300 rounded-lg p-6">
-                <div className="flex justify-center mb-4"><TrendingUp className="w-10 h-10 text-black" /></div>
-                <h4 className="text-lg font-medium mb-2">Measurable improvements</h4>
-                <p className="text-gray-600">
-                  Track time saved, errors reduced, and cash flow improved with real-time dashboards.
-                </p>
-              </div>
+          <div className="grid md:grid-cols-3 gap-8 mb-12">
+            <div className="text-center border border-gray-300 rounded-lg p-6">
+              <div className="flex justify-center mb-4"><Target className="w-10 h-10 text-black" /></div>
+              <h4 className="text-lg font-medium mb-2">Practice-specific learning</h4>
+              <p className="text-gray-600">
+                Learns your workflows, policies, and Australian compliance requirements.
+              </p>
             </div>
+            <div className="text-center border border-gray-300 rounded-lg p-6">
+              <div className="flex justify-center mb-4"><Shield className="w-10 h-10 text-black" /></div>
+              <h4 className="text-lg font-medium mb-2">Australian data protection</h4>
+              <p className="text-gray-600">
+                Data stays in Australia. APP compliant. Staff control every automated action.
+              </p>
+            </div>
+            <div className="text-center border border-gray-300 rounded-lg p-6">
+              <div className="flex justify-center mb-4"><TrendingUp className="w-10 h-10 text-black" /></div>
+              <h4 className="text-lg font-medium mb-2">Proven results</h4>
+              <p className="text-gray-600">
+                10-20 hours saved weekly, 45% fewer errors, 2-3 days faster payments.
+              </p>
+            </div>
+          </div>
+
+          <div className="text-center">
+            <Link to="/security" className="text-gray-900 hover:text-gray-600 transition font-medium">
+              Read about security & Australian compliance →
+            </Link>
           </div>
         </div>
       </section>
