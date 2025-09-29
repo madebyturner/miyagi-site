@@ -5,7 +5,7 @@ export default function ManagerConsole() {
     <>
       {/* Hero */}
       <div className="pt-20 pb-32 md:pt-32 md:pb-48">
-        <div className="max-w-4xl">
+        <div className="max-w-4xl mx-auto">
           <h1 className="text-5xl md:text-6xl lg:text-7xl font-medium mb-8 leading-[1.1] tracking-tight">
             Manager Console
           </h1>
@@ -63,7 +63,7 @@ export default function ManagerConsole() {
 
       {/* #explore */}
       <section id="explore" className="py-32">
-        <div className="max-w-5xl">
+        <div className="max-w-5xl mx-auto">
           <div className="mb-16">
             <div className="text-sm uppercase tracking-wider text-gray-400 mb-4">Explore feature</div>
             <h2 className="text-4xl md:text-5xl font-medium mb-8 tracking-tight">
@@ -164,7 +164,7 @@ export default function ManagerConsole() {
 
       {/* #control */}
       <section id="control" className="py-32">
-        <div className="max-w-5xl">
+        <div className="max-w-5xl mx-auto">
           <h2 className="text-4xl md:text-5xl font-medium mb-8 tracking-tight">
             Control the confidence ladder
           </h2>
@@ -261,7 +261,7 @@ export default function ManagerConsole() {
 
       {/* CTA */}
       <section className="py-32">
-        <div className="max-w-4xl text-center">
+        <div className="max-w-4xl mx-auto text-center">
           <h2 className="text-4xl md:text-5xl font-medium mb-6 tracking-tight">
             Ready to see the Manager Console?
           </h2>

@@ -2,7 +2,7 @@ export default function RequestDemo() {
   return (
     <>
       <div className="pt-20 pb-32 md:pt-32 md:pb-48">
-        <div className="max-w-4xl">
+        <div className="max-w-4xl mx-auto">
           <h1 className="text-5xl md:text-6xl lg:text-7xl font-medium mb-8 leading-[1.1] tracking-tight">
             Request a demo
           </h1>
@@ -13,7 +13,7 @@ export default function RequestDemo() {
       </div>
 
       <section className="py-32">
-        <div className="max-w-3xl">
+        <div className="max-w-3xl mx-auto">
           <div className="p-8 bg-gray-50 rounded-lg border border-gray-200">
             <p className="text-gray-600">
               Demo booking form will be integrated here (e.g., Calendly, HubSpot, or custom form).

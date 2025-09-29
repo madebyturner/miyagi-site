@@ -2,7 +2,7 @@ export default function Insights() {
   return (
     <>
       <section className="py-24">
-        <div className="max-w-3xl">
+        <div className="max-w-3xl mx-auto">
           <h2 className="text-4xl md:text-5xl font-medium mb-6 tracking-tight">Conversational Insights</h2>
           <p className="text-lg text-gray-600 mb-12">
             No dashboards to learn. Ask questions in plain language and get answers based on your actual call data. AI surfaces patterns, quantifies problems, and suggests solutions specific to your practice.
@@ -59,7 +59,7 @@ export default function Insights() {
           </div>
         </div>
 
-        <div className="max-w-3xl">
+        <div className="max-w-3xl mx-auto">
           <h3 className="text-2xl font-medium mb-6 tracking-tight">From insights to action</h3>
           <p className="text-lg text-gray-600 mb-8">
             Insights aren't just interesting data — they're the foundation for creating AI assistants that solve your specific problems.

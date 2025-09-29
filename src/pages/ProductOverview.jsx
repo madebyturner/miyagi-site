@@ -4,7 +4,7 @@ export default function ProductOverview() {
   return (
     <>
       <section className="py-24">
-        <div className="max-w-3xl mb-16">
+        <div className="max-w-3xl mx-auto mb-16">
           <h2 className="text-4xl md:text-5xl font-medium mb-6 tracking-tight">AI that works with your team</h2>
           <p className="text-lg text-gray-600">
             Miyagi learns how your practice works, then creates AI assistants that help your staff handle calls more efficiently. Your team stays in control, AI provides the support.
@@ -90,7 +90,7 @@ export default function ProductOverview() {
       </section>
 
       <section className="py-24">
-        <div className="max-w-3xl">
+        <div className="max-w-3xl mx-auto">
           <h2 className="text-3xl md:text-4xl font-medium mb-6 tracking-tight">Technical capabilities</h2>
           <p className="text-lg text-gray-600 mb-12">
             Built for Australian healthcare practices with technical depth where it matters.

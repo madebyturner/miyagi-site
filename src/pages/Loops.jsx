@@ -2,7 +2,7 @@ export default function Loops() {
   return (
     <>
       <section className="py-24">
-        <div className="max-w-3xl">
+        <div className="max-w-3xl mx-auto">
           <h2 className="text-4xl md:text-5xl font-medium mb-6 tracking-tight">Loops</h2>
           <p className="text-lg text-gray-600 mb-12">
             Custom AI workers trained by your team. Loops learn from your best staff and provide real-time guidance through an on-screen mini window, making your entire team faster and more consistent.
@@ -92,7 +92,7 @@ export default function Loops() {
           </div>
         </div>
 
-        <div className="max-w-3xl">
+        <div className="max-w-3xl mx-auto">
           <h3 className="text-2xl font-medium mb-6 tracking-tight">Control the assistance level</h3>
           <p className="text-lg text-gray-600 mb-12">
             Start with simple guidance and increase assistance as trust builds. Your team always stays in control.

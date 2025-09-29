@@ -4,7 +4,7 @@ export default function Security() {
   return (
     <>
       <div className="pt-20 pb-32 md:pt-32 md:pb-48">
-        <div className="max-w-4xl">
+        <div className="max-w-4xl mx-auto">
           <h1 className="text-5xl md:text-6xl lg:text-7xl font-medium mb-8 leading-[1.1] tracking-tight">
             Security & Compliance
           </h1>
@@ -15,7 +15,7 @@ export default function Security() {
       </div>
 
       <section className="py-32">
-        <div className="max-w-5xl">
+        <div className="max-w-5xl mx-auto">
           <h2 className="text-4xl md:text-5xl font-medium mb-8 tracking-tight">
             Australian data residency
           </h2>
@@ -126,7 +126,7 @@ export default function Security() {
       </section>
 
       <section className="py-32">
-        <div className="max-w-5xl">
+        <div className="max-w-5xl mx-auto">
           <h2 className="text-4xl md:text-5xl font-medium mb-8 tracking-tight">
             Role-based access control
           </h2>
@@ -262,7 +262,7 @@ export default function Security() {
       </section>
 
       <section className="py-32">
-        <div className="max-w-5xl">
+        <div className="max-w-5xl mx-auto">
           <h2 className="text-4xl md:text-5xl font-medium mb-8 tracking-tight">
             Phone permissions & consent
           </h2>
@@ -358,7 +358,7 @@ export default function Security() {
       </section>
 
       <section className="py-32">
-        <div className="max-w-4xl text-center">
+        <div className="max-w-4xl mx-auto text-center">
           <h2 className="text-4xl md:text-5xl font-medium mb-6 tracking-tight">
             Questions about security?
           </h2>

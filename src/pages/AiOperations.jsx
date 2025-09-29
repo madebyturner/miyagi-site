@@ -5,7 +5,7 @@ export default function AiOperations() {
     <>
       {/* Hero */}
       <div className="pt-20 pb-32 md:pt-32 md:pb-48">
-        <div className="max-w-4xl">
+        <div className="max-w-4xl mx-auto">
           <h1 className="text-5xl md:text-6xl lg:text-7xl font-medium mb-8 leading-[1.1] tracking-tight">
             AI Operations
           </h1>
@@ -150,7 +150,7 @@ export default function AiOperations() {
 
       {/* #loops */}
       <section id="loops" className="py-32">
-        <div className="max-w-5xl">
+        <div className="max-w-5xl mx-auto">
           <h2 className="text-4xl md:text-5xl font-medium mb-8 tracking-tight">
             Loops: Complete workflows
           </h2>
@@ -345,7 +345,7 @@ export default function AiOperations() {
 
       {/* #transparency */}
       <section id="transparency" className="py-32">
-        <div className="max-w-5xl">
+        <div className="max-w-5xl mx-auto">
           <h2 className="text-4xl md:text-5xl font-medium mb-8 tracking-tight">
             Decision trails & audit logs
           </h2>
@@ -418,7 +418,7 @@ export default function AiOperations() {
 
       {/* CTA */}
       <section className="py-32">
-        <div className="max-w-4xl text-center">
+        <div className="max-w-4xl mx-auto text-center">
           <h2 className="text-4xl md:text-5xl font-medium mb-6 tracking-tight">
             Ready to build your first Task?
           </h2>

@@ -4,7 +4,7 @@ export default function ReceptionistAssistant() {
   return (
     <>
       <div className="pt-20 pb-32 md:pt-32 md:pb-48">
-        <div className="max-w-4xl">
+        <div className="max-w-4xl mx-auto">
           <h1 className="text-5xl md:text-6xl lg:text-7xl font-medium mb-8 leading-[1.1] tracking-tight">
             Receptionist Assistant
           </h1>
@@ -90,7 +90,7 @@ export default function ReceptionistAssistant() {
       </section>
 
       <section id="how-it-works" className="py-32">
-        <div className="max-w-5xl">
+        <div className="max-w-5xl mx-auto">
           <h2 className="text-4xl md:text-5xl font-medium mb-8 tracking-tight">
             Transcript → prompt → one click
           </h2>
@@ -189,7 +189,7 @@ export default function ReceptionistAssistant() {
       </section>
 
       <section id="demo" className="py-32">
-        <div className="max-w-5xl">
+        <div className="max-w-5xl mx-auto">
           <h2 className="text-4xl md:text-5xl font-medium mb-8 tracking-tight">
             See it in action
           </h2>
@@ -247,7 +247,7 @@ export default function ReceptionistAssistant() {
       </section>
 
       <section id="requirements" className="py-32">
-        <div className="max-w-5xl">
+        <div className="max-w-5xl mx-auto">
           <h2 className="text-4xl md:text-5xl font-medium mb-8 tracking-tight">
             What you need
           </h2>
