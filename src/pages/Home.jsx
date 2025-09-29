@@ -163,7 +163,7 @@ export default function Home() {
           <div className="text-center mb-16">
             <h2 className="text-4xl md:text-5xl font-medium mb-6 tracking-tight">Built for Australian healthcare reality</h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Most practice automation tools are US-built and don't understand Medicare, bulk billing, or Australian workflows. We do.
+              Designed specifically for Australian practices. Understands Medicare, bulk billing, and the unique workflows that make your practice work.
             </p>
           </div>
 
