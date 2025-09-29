@@ -27,61 +27,73 @@ export default function Home() {
         </div>
       </div>
 
-      {/* Live demo preview */}
+      {/* Product demo */}
       <hr className="border-gray-300 my-16" />
       <section className="py-32 border-2 border-gray-300 -mx-8 lg:-mx-12 px-8 lg:px-12">
         <div className="max-w-5xl mx-auto">
           <div className="text-center mb-16">
-            <div className="text-sm uppercase tracking-wider text-gray-400 mb-4">See it in action</div>
-            <h2 className="text-4xl md:text-5xl font-medium mb-6 tracking-tight">Staff see ⚡ prompts, click to approve</h2>
+            <div className="text-sm uppercase tracking-wider text-gray-400 mb-4">Interactive demo</div>
+            <h2 className="text-4xl md:text-5xl font-medium mb-6 tracking-tight">Real-time AI assistance during patient calls</h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Mini-window appears during calls. AI listens, suggests actions, staff stay in control.
+              Mini-window appears as staff handle calls. AI suggests actions based on conversation context. One click to approve or ignore.
             </p>
           </div>
 
-          {/* Demo interface mockup */}
-          <div className="border-2 border-gray-300 rounded-lg p-8 bg-white mb-8">
-            <div className="bg-gray-50 rounded-lg p-6 mb-6">
-              <div className="flex items-center gap-3 mb-4">
-                <div className="w-3 h-3 bg-green-500 rounded-full"></div>
-                <div className="text-sm font-medium">Call in progress • Patient: Sarah Chen</div>
-              </div>
-              <div className="text-sm text-gray-600 mb-4 leading-relaxed">
-                "Hi, I'd like to book an appointment for next Tuesday if possible. I have private health insurance with Bupa and was wondering about my coverage for the consultation..."
-              </div>
-            </div>
-
-            <div className="border border-orange-300 bg-orange-50 rounded-lg p-4 mb-4">
-              <div className="flex items-start gap-3">
-                <span className="text-xl">⚡</span>
-                <div className="flex-1">
-                  <div className="font-medium mb-1">Bulk billing eligibility detected</div>
-                  <div className="text-sm text-gray-600 mb-3">Patient eligible for bulk billing (Medicare #2847 591 234). Bupa extras cover applies for services over $85.</div>
-                  <div className="flex gap-2">
-                    <button className="px-4 py-2 bg-black text-white text-sm rounded-lg hover:bg-gray-800">✓ Apply bulk billing</button>
-                    <button className="px-4 py-2 border border-gray-300 text-sm rounded-lg hover:bg-gray-50">Handle manually</button>
-                  </div>
+          {/* Wireframe demo interface */}
+          <div className="border-2 border-gray-300 rounded-lg bg-white mb-8">
+            {/* Call header */}
+            <div className="border-b border-gray-300 p-4">
+              <div className="flex items-center justify-between">
+                <div className="text-sm font-medium">Miyagi Mini-window</div>
+                <div className="flex items-center gap-2">
+                  <div className="w-2 h-2 bg-black rounded-full"></div>
+                  <div className="text-xs text-gray-600">Active call</div>
                 </div>
               </div>
             </div>
 
-            <div className="border border-blue-300 bg-blue-50 rounded-lg p-4">
-              <div className="flex items-start gap-3">
-                <span className="text-xl">⚡</span>
-                <div className="flex-1">
-                  <div className="font-medium mb-1">Book appointment</div>
-                  <div className="text-sm text-gray-600 mb-3">Available slots Tuesday: 10:30am, 2:15pm, 4:45pm. Recommend 2:15pm based on Dr. Smith's preference for follow-ups.</div>
-                  <div className="flex gap-2">
-                    <button className="px-4 py-2 bg-black text-white text-sm rounded-lg hover:bg-gray-800">✓ Book 2:15pm</button>
-                    <button className="px-4 py-2 border border-gray-300 text-sm rounded-lg hover:bg-gray-50">Show all times</button>
-                  </div>
+            {/* Call transcript */}
+            <div className="p-6 border-b border-gray-300 bg-gray-50">
+              <div className="text-xs text-gray-500 mb-2">Live transcript:</div>
+              <div className="text-sm text-gray-700">
+                "Hi, I'd like to book with Dr. Smith next Tuesday. I have private health with Bupa, wondering about bulk billing eligibility..."
+              </div>
+            </div>
+
+            {/* AI suggestions */}
+            <div className="p-6 space-y-4">
+              <div className="border border-gray-300 rounded p-4">
+                <div className="flex items-start justify-between mb-2">
+                  <div className="text-sm font-medium">Medicare eligibility check</div>
+                  <div className="text-xs text-gray-500">Confidence: 95%</div>
+                </div>
+                <div className="text-xs text-gray-600 mb-3">
+                  Patient eligible for bulk billing (Medicare #2847591234). Bupa extras apply for services >$85.
+                </div>
+                <div className="flex gap-2">
+                  <button className="px-3 py-1 bg-black text-white text-xs rounded hover:bg-gray-800">Apply bulk billing</button>
+                  <button className="px-3 py-1 border border-gray-300 text-xs rounded hover:bg-gray-50">Manual check</button>
+                </div>
+              </div>
+
+              <div className="border border-gray-300 rounded p-4">
+                <div className="flex items-start justify-between mb-2">
+                  <div className="text-sm font-medium">Booking suggestion</div>
+                  <div className="text-xs text-gray-500">3 slots found</div>
+                </div>
+                <div className="text-xs text-gray-600 mb-3">
+                  Available Tuesday: 10:30am, 2:15pm, 4:45pm. Recommending 2:15pm based on Dr. Smith's scheduling preferences.
+                </div>
+                <div className="flex gap-2">
+                  <button className="px-3 py-1 bg-black text-white text-xs rounded hover:bg-gray-800">Book 2:15pm</button>
+                  <button className="px-3 py-1 border border-gray-300 text-xs rounded hover:bg-gray-50">Show all options</button>
                 </div>
               </div>
             </div>
           </div>
 
           <div className="text-center text-sm text-gray-500 mb-12">
-            ⚡ prompts appear automatically. Staff click to approve or handle their way.
+            Staff control every action. Click to approve suggestions or handle manually.
           </div>
 
           {/* How it works - simplified */}
