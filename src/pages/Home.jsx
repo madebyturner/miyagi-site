@@ -167,51 +167,26 @@ export default function Home() {
             </p>
           </div>
 
-          <div className="border-2 border-gray-300 rounded-lg p-12 mb-16">
-            <div className="grid md:grid-cols-2 gap-12">
-              <div>
-                <h3 className="text-2xl font-medium mb-6">Australian practice challenges</h3>
-                <div className="space-y-4 text-gray-600">
-                  <div className="flex items-start gap-3">
-                    <span className="text-gray-400">→</span>
-                    <span>Medicare eligibility and bulk billing complexity</span>
-                  </div>
-                  <div className="flex items-start gap-3">
-                    <span className="text-gray-400">→</span>
-                    <span>PBS scripts, referrals, and health fund variations</span>
-                  </div>
-                  <div className="flex items-start gap-3">
-                    <span className="text-gray-400">→</span>
-                    <span>High staff turnover requiring constant retraining</span>
-                  </div>
-                  <div className="flex items-start gap-3">
-                    <span className="text-gray-400">→</span>
-                    <span>Manual follow-ups and payment chasing</span>
-                  </div>
-                </div>
-              </div>
+          <div className="grid md:grid-cols-3 gap-8 mb-16">
+            <div className="border border-gray-300 rounded-lg p-6">
+              <div className="text-sm uppercase tracking-wider text-gray-400 mb-3">Test before deploy</div>
+              <p className="text-gray-600">
+                Test Tasks before staff see them. You approve what goes live.
+              </p>
+            </div>
 
-              <div>
-                <h3 className="text-2xl font-medium mb-6">How Miyagi solves this</h3>
-                <div className="space-y-4 text-gray-600">
-                  <div className="flex items-start gap-3">
-                    <span className="text-black">✓</span>
-                    <span>Understands Australian healthcare rules and workflows</span>
-                  </div>
-                  <div className="flex items-start gap-3">
-                    <span className="text-black">✓</span>
-                    <span>Automated eligibility checks and billing validation</span>
-                  </div>
-                  <div className="flex items-start gap-3">
-                    <span className="text-black">✓</span>
-                    <span>Real-time guidance reduces training from weeks to days</span>
-                  </div>
-                  <div className="flex items-start gap-3">
-                    <span className="text-black">✓</span>
-                    <span>Intelligent follow-ups and payment automation</span>
-                  </div>
-                </div>
-              </div>
+            <div className="border border-gray-300 rounded-lg p-6">
+              <div className="text-sm uppercase tracking-wider text-gray-400 mb-3">Australian data</div>
+              <p className="text-gray-600">
+                Australian data centres. APP compliant. End-to-end encryption.
+              </p>
+            </div>
+
+            <div className="border border-gray-300 rounded-lg p-6">
+              <div className="text-sm uppercase tracking-wider text-gray-400 mb-3">Granular permissions</div>
+              <p className="text-gray-600">
+                Control what AI sees and does. Revoke access anytime. Audit trails track every decision.
+              </p>
             </div>
           </div>
 
