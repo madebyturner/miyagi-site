@@ -68,7 +68,7 @@ export default function Home() {
                   <div className="text-xs text-gray-500">Confidence: 95%</div>
                 </div>
                 <div className="text-xs text-gray-600 mb-3">
-                  Patient eligible for bulk billing (Medicare #2847591234). Bupa extras apply for services >$85.
+                  Patient eligible for bulk billing (Medicare #2847591234). Bupa extras apply for services over $85.
                 </div>
                 <div className="flex gap-2">
                   <button className="px-3 py-1 bg-black text-white text-xs rounded hover:bg-gray-800">Apply bulk billing</button>
